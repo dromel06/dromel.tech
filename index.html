@@ -14,7 +14,7 @@
   <body class="blue-grey lighten-5" id="home">
     
     <!-- Barra de Navegacion -->
-    <div class="navbar-fixed pantalla">
+    <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper blue-grey darken-4">
           <a href="#home" class="brand-logo left container ">
@@ -49,14 +49,15 @@
       </ul>
     
       
-      <!--Primera pantalla, nombre e imagen  -->
-    <section id="homes">
-      <div class="container row">
-        <div class="col m6 s12 l6 txt">
-          <h2 class="texto1 txt">Soy Diomedes Romel Diaz</h2>
-          <h4 class="texto2 txt">Desarrollador de Software</h4>
-          <!-- Boton con ancla -->
-          <a href="#portfolio" class="btn waves-effect waves-light light-blue darken-4">Ver Proyectos</a>
+      <!--Primera pantalla, nombre e imagen  --> 
+      <section id="homes" class="pantalla red">
+        <div class="container row">
+          <div class="col m6 s12 l6 txt">
+            <h2 class="texto1 txt">Soy Diomedes Romel Diaz</h2>
+            <h4 class="texto2 txt">Desarrollador de Software</h4>
+            <!-- Boton con ancla -->
+            <a href="#portfolio" class="btn waves-effect waves-light light-blue darken-4">Curriculum</a>
+            <a href="#portfolio" class="btn waves-effect waves-light light-blue darken-4">Ver Proyectos</a>
         </div>
         <div class="col m6 s12 l6">
           <img src="./imgs/programing (2).png" class="responsive-img" alt="">
@@ -65,7 +66,7 @@
   </section>
   
     <!-- Segunda Pantalla Skils, Carousel de fotos con las habilidades -->
-    <section id="skils" class="pink darken-4">
+    <section id="skils" class="pink darken-4 pantalla">
       <br><br>
       <h2 class="center">Habilidades</h2>
       <div class="container row">
@@ -86,7 +87,7 @@
 
   <!-- Tercera Pantalla Portafolio, se utilizan tarjetas con reveal -->
 
-    <section id="portfolio">
+    <section id="portfolio" class="green pantalla">
       <h2 class="center">Portafolio</h2>
 
       <div class="row container">
@@ -101,7 +102,7 @@
             <div class="card-reveal cyan accent-1">
               <span class="card-title grey-text text-darken-4">Conejos Panamá<i class="material-icons right">close</i></span>
               <p>Un sitio Web Creado para la empresa Conejos Panama en este utilize materrialize para el diseño, JS y php para el back-end.</p>
-                <div class="center row">
+                <div class=" row center">
                   <div class="col s12 m6">
                     <a href="https://conejospanama.com" target="_blank" class="btn waves cyan accent-3 btn2"> ver Proyecto</a>
                   </div>
@@ -117,10 +118,11 @@
           </div>
           
         </div>
-
       </div>
-      
+    </section>
 
+    <section id="conctact" class="pantalla blue">
+      <div></div>
     </section>
 
 
